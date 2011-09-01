@@ -19,13 +19,4 @@ Executable xcode2nix
   hs-source-dirs:    src
   Build-Depends:     base, parsec
   Ghc-Options:       -Wall
-  
-  -- Packages needed in order to build this package.
-  -- Build-depends:       
-  
-  -- Modules not exported by this package.
-  -- Other-modules:       
-  
-  -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
-  -- Build-tools:         
-  
+
