@@ -1,0 +1,31 @@
+Name:                xcode2nix
+Version:             0.1
+Synopsis:            Generate Nix build instructions from an xcode build file
+Homepage:            https://github.com/shlevy/xcode2nix
+License:             MIT
+License-file:        LICENSE
+Author:              Shea Levy
+Maintainer:          shea@shealevy.com
+Category:            Distribution
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+Source-Repository head
+  Type:              git
+  Location:          git://github.com/shlevy/xcode2nix.git
+
+Executable xcode2nix
+  Main-is:           Xcode2Nix.hs
+  hs-source-dirs:    src
+  Build-Depends:     parsec
+  Ghc-Options:       -Wall
+  
+  -- Packages needed in order to build this package.
+  -- Build-depends:       
+  
+  -- Modules not exported by this package.
+  -- Other-modules:       
+  
+  -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
+  -- Build-tools:         
+  
